@@ -1,0 +1,85 @@
+.page{
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  &::-webkit-scrollbar { width: 0 !important }
+}
+.badge-item{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  .in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .icon{
+    width: 88px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px 1px rgba(255, 195, 54, 0.21);
+    border-radius: 6px 6px 6px 6px;
+    opacity: 1;
+    //padding: 0 15px;
+    box-sizing:border-box;
+    position: relative;
+    .bage{
+      //width: 30px;
+      //height: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      color: #FFFFFF;
+      line-height: 1;
+      background: #FD8109;
+      border-radius:20px;
+      opacity: 1;
+      padding: 2px 5px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 10;
+    }
+    img{
+      width: 88px;
+      height: 88px;
+      object-fit: contain;
+    }
+  }
+  .name{
+    font-size: 16px;
+    font-family: PingFang SC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #2D2929;
+    line-height: 1;
+    margin-top: 20px;
+  }
+}
+.badgeList{
+  width: 100%;
+  background: #F4F4F4;
+  border-radius: 22px 22px 22px 22px;
+  opacity: 1;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding:0 15px 40px;
+  box-sizing:border-box;
+  .bl{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .zm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
