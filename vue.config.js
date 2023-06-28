@@ -10,16 +10,16 @@ const postcss = px2rem({
 
 module.exports = {
     lintOnSave: true,
-    publicPath:'./',
-    css: {
-        loaderOptions: {
-            postcss: {
-                plugins: [
-                    postcss
-                ]
-            }
-        }
-    },
+    publicPath: './',
+    // css: {
+    //     loaderOptions: {
+    //         postcss: {
+    //             plugins: [
+    //                 postcss
+    //             ]
+    //         }
+    //     }
+    // },
     pluginOptions: {
         'style-resources-loader': {
             preProcessor: 'scss',
